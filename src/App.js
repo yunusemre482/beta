@@ -15,7 +15,7 @@ function App() {
 
 
   useEffect(() => {
-    if (isAuthenticated) {
+    if (!isAuthenticated) {
       handleStart();
     }
   }, [isAuthenticated]);
