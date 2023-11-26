@@ -25,6 +25,7 @@ const ProductList = () => {
 				alignItems: 'center',
 				justifyContent: 'center',
 				position: 'relative',
+				gap: 1,
 			}}
 		>
 			{/* {loading && <Loader />} */}

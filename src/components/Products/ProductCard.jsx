@@ -43,6 +43,7 @@ const ProductCard = ({ id, image, name, price, discount, originalPrice, rating }
 			sx={{
 				placeItems: 'center',
 				justifyContent: 'center',
+				marginTop: '1rem',
 			}}
 		>
 			<ProductContainer>
